@@ -1,0 +1,21 @@
+.top-bar {
+  background: #e53935;
+  color: #fff;
+  padding: 6px 0;
+  font-weight: bold;
+}
+
+.main-nav {
+  background: #0a1fbf;
+}
+
+.main-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  padding: 12px 20px;
+}
+
+.hero-img {
+  height: 500px;
+  object-fit: cover;
+}
