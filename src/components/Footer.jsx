@@ -1,7 +1,7 @@
-const Footer = () => (
-  <footer className="footer">
-    <p>© 2026 My Website</p>
-  </footer>
-);
-
-export default Footer;
+export default function Footer() {
+  return (
+    <footer className="footer">
+      © {new Date().getFullYear()} पिंपळनेर ग्रामपंचायत • सर्व हक्क राखीव
+    </footer>
+  );
+}

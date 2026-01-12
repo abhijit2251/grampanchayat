@@ -6,7 +6,7 @@ const Header = () => {
       <div className="d-flex align-items-center gap-3">
         <img src={logo} alt="logo" height="60" />
         <div>
-          <h5 className="mb-0 text-primary">ABC ग्रामपंचायत</h5>
+          <h5 className="mb-0 text-primary">पिंपळनेर ग्रामपंचायत</h5>
           <small>जिल्हा सोलापूर, महाराष्ट्र</small>
         </div>
       </div>

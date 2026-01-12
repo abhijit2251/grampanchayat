@@ -420,3 +420,72 @@
     gap: 10px;
   }
 }
+
+/* Schemes Section */
+.schemes-section {
+  padding: 50px 20px;
+  background: #f8f9fb;
+}
+.schemes-section h2 {
+  font-size: 28px;
+  color: #1e3a8a;
+}
+.scheme-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 18px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status {
+  background: #f59e0b;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  color: #337;
+  font-weight: bold;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 50px 20px;
+  text-align: center;
+}
+.gallery-grid {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery-grid img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Contact Section */
+.contact-sec {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 18px;
+  background: #6070ea;
+  color: #fff;
+  font-size: 14px;
+}
