@@ -57,3 +57,366 @@
     transform: translateX(0);
   }
 }
+
+/* Village Info Section */
+.village-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #ef4444, #10b981);
+  margin: 12px auto 25px;
+  border-radius: 10px;
+}
+
+.description {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  color: #4b5563;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+}
+
+.icon {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.stat-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.stat-card span {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.blue {
+  color: #2563eb;
+}
+.green {
+  color: #16a34a;
+}
+.orange {
+  color: #f59e0b;
+}
+.sky {
+  color: #0ea5e9;
+}
+
+/* Highlight Section */
+.highlight {
+  margin-top: 60px;
+  padding: 45px 20px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #e9ff6b, #4db18b);
+  color: white;
+}
+
+.highlight h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.highlight p {
+  margin-top: 8px;
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* Team Section */
+.team-section {
+  padding: 60px 20px;
+  background: #f8f9fb;
+  font-family: Arial, sans-serif;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-header h2 {
+  font-size: 28px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.team-header p {
+  color: #6b7280;
+}
+
+.divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(to right, #ef4444, #22c55e);
+  margin: 12px auto;
+  border-radius: 4px;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  background: #fff;
+  width: 320px;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-6px);
+}
+
+.member-card img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #e5e7eb;
+}
+
+.member-card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.role {
+  color: #2563eb;
+  font-weight: 600;
+  display: block;
+  margin-top: 6px;
+}
+
+.info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.info p {
+  margin: 6px 0;
+}
+
+/* Button */
+.view-all {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.view-all button {
+  background: transparent;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-all button:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .member-card {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+/* Yojana Section */
+.yojana-section {
+  padding: 60px 20px;
+  background: #f8f9fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.yojana-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.yojana-header h2 {
+  font-size: 30px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.yojana-header p {
+  color: #6b7280;
+}
+
+.divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(to right, #ef4444, #22c55e);
+  margin: 12px auto;
+  border-radius: 4px;
+}
+
+/* Card */
+.yojana-card {
+  max-width: 680px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Top */
+.card-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #e0e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.card-title h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 6px;
+  background: #f59e0b;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 13px;
+}
+
+/* Description */
+.description {
+  margin-top: 18px;
+  color: #4b5563;
+}
+
+/* Divider */
+.card-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Bottom */
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.budget span {
+  display: block;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.budget strong {
+  color: #16a34a;
+  font-size: 18px;
+}
+
+/* Button */
+.view-all {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.view-all button {
+  background: transparent;
+  border: 2px solid #1e3a8a;
+  color: #1e3a8a;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-all button:hover {
+  background: #1e3a8a;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .yojana-card {
+    padding: 20px;
+  }
+
+  .card-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
